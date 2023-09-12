@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>RM122 Radical</title>
+
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/et-lineicon.css" />
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/menu.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <!-- Global site tag (gtag.js) - Google Analytics-->
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HQ8YXLGZ8K"></script>
+     <script>
+         window.dataLayer = window.dataLayer || [];
+ 
+         function gtag() {
+             dataLayer.push(arguments);
+         }
+         gtag('js', new Date());
+ 
+         gtag('config', 'G-HQ8YXLGZ8K');
+     </script>
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div class="animationload">
+        <div class="loader">
+            Loading...
+        </div>
+    </div>
+
+    <!-- MENU -->
+    <div id="navbar">
+        <div class="topnav" id="myTopnav">
+            <a href="./index.html" class="active">Home</a>
+            <a href="./agenda.html">Agenda</a>
+            <a href="https://integracao.prover.app/evento/dados-gerais/aeab9769-8423-4b0a-a8e5-69e1b7c21e17?lang=pt-BR" target="_blank">Inscrição</a>
+            <a href="./contato.html">Contato</a>
+
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </div>
+
+    <!-- =========================
+                 HOME
+        ========================== -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+    <section id="home">
+        <div class="content">
+            <div id="large-header" class="large-header">
+                <canvas id="demo-canvas"></canvas>
+                <div id="countdown_dashboard" class="home-main container">
+                    <div class="row">
+                        <div class="logo">
+                           
+                            <img id="img-logo" src="images/logo_01.png" alt="logo" class="responsivo" width="700" height="600">
+                            
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!-- DAYS -->
+                        <div class="col-md-3 col-sm-3 col-xs-6 dash-glob"
+                            data-scroll-reveal="enter bottom move 25px, after 0.3s">
+                            <div class="dash days_dash">
+                                <div class="digit">0</div>
+                                <div class="digit">0</div>
+                                <div class="digit">0</div>
+                                <span class="dash_title">Dias</span>
+                            </div>
+                        </div>
+                        <!-- HOURS -->
+                        <div class="col-md-3 col-sm-3 col-xs-6 dash-glob"
+                            data-scroll-reveal="enter bottom move 25px, after 0.3s">
+                            <div class="dash hours_dash">
+                                <div class="digit">0</div>
+                                <div class="digit">0</div>
+                                <span class="dash_title">Horas</span>
+                            </div>
+                        </div>
+                        <!-- MINUTES -->
+                        <div class="col-md-3 col-sm-3 col-xs-6 dash-glob"
+                            data-scroll-reveal="enter bottom move 25px, after 0.3s">
+                            <div class="dash minutes_dash">
+                                <div class="digit">0</div>
+                                <div class="digit">0</div>
+                                <span class="dash_title">Minutos</span>
+                            </div>
+                        </div>
+                        <!-- SECONDS -->
+                        <div class="col-md-3 col-sm-3 col-xs-6 dash-glob"
+                            data-scroll-reveal="enter bottom move 25px, after 0.3s">
+                            <div class="dash seconds_dash">
+                                <div class="digit">0</div>
+                                <div class="digit">0</div>
+                                <span class="dash_title">Secundos</span>
+                            </div>
+                        </div>
+                    </div> <!-- END ROW -->
+                    <h1 id="count-text" style="font-family:'Base 02 Regular'; font-weight: normal; color: #fff;">
+                         11º Edicao: Sua  Historia...
+                    </h1>
+                </div> <!-- END COUNTDOWN -->
+            </div> <!-- LARGE HEADER -->
+        </div> <!-- END CONTENT -->
+    </section>
+
+    <!-- =========================
+                 NEWSLETTER
+        ========================== -->
+
+    <section class="newsletter">
+        <div class="container">
+
+            <!-- partial:index.partial.html -->
+            <div>
+                <h1>O que é RM 122 Radical?</h1>
+                <img id="img-text" src="./images/acampante.jpg" alt="Rabbit" />
+                <p>
+                    O projeto Rm 122 Radical é um evento ricamente abençoador, realizado num final de semana no sítio da
+                    Igreja. O projeto RM 122 vem impactando muitas pessoas a tomarem atitudes que agradem a Deus no seu
+                    viver diário.
+                </p>
+
+                <p>
+                    O projeto é dividido em duas etapas, sendo a primeira realizada em forma de simulações, considerando
+                    a realidade da igreja perseguida, onde o participante é confrontado com suas próprias mazelas e
+                    caprichos.
+                </p>
+
+                <p>
+                    Para tanto é necessário que pessoas de nossa equipe de colaboradores executem tarefas que irão
+                    desafiar o participante a tomar atitudes de um verdadeiro cristão.
+                </p>
+                <p>
+                    Dentro do RM122, não haverá conforto, além de o participante passar por privações durante a primeira
+                    etapa do evento;
+                    Não estranhe, pois nas primeiras horas deste confronto, você participante poderá não gostar de suas
+                    próprias atitudes diante de determinadas situações.
+                </p>
+
+            </div>
+            <!-- partial -->
+
+        </div>
+    </section>
+
+    <!-- ============================
+              Start Video Section
+    ============================= -->
+    <section class="showcase container">
+        <video autoplay muted loop>
+            <source src="./images/rm122.mp4">
+        </video>
+        <div class="overlay"></div>
+            <h2> Não se Conforme,</h2>
+        <div class="text">
+
+            <h3>Transforma-Se!</h3>
+            <p>
+                "E não sede conformados com este mundo, mas sede transformados pela renovação do vosso entendimento,
+                para que experimenteis qual seja a boa, agradável, e perfeita vontade de Deus."<br>
+
+                Romanos 12:2
+            </p>
+            <a href="https://www.youtube.com/watch?v=-v3TB8fthlk&t=6s" target="_blank">Ir Para o Vídeo</a>
+        </div>
+    </section>
+
+
+    <!-- =========================
+                 TEAMS CARD 
+        ========================== -->
+    <section id="newsletterFundo" class="newsletter">
+        <div class="">
+
+            <h1 id="teams-h1">Administradores do Projeto</h1>
+            <p id="teams-p">Conheca os responsaveis do projeto radical</p>
+
+            <!-- partial:index.partial.html -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="our-team">
+                            <div class="picture">
+                                <img class="img-fluid" src="./images/Bispo_Aleandre2.jpg">
+                            </div>
+                            <div class="team-content">
+                                <h3 class="name">Bispo Alexandre</h3>
+                                <h4 class="title">Igreja IEPTT</h4>
+                            </div>
+                            <ul class="social">
+                                <li><a href="https://www.facebook.com/alexandre.teixeira.12382" target="_blank"
+                                        class="fa fa-facebook" aria-hidden="true"></a></li>
+                                <li><a href="https://www.instagram.com/bispo_alexandre_teixeira_ieptt/" target="_blank"
+                                        class="fa fa-instagram" aria-hidden="true"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="our-team">
+                            <div class="picture">
+                                <img class="img-fluid" src="./images/Bispa-Viviane.jpeg">
+                            </div>
+                            <div class="team-content">
+                                <h3 class="name">Bispa Viviane</h3>
+                                <h4 class="title">Igreja IEPTT</h4>
+                            </div>
+                            <ul class="social">
+                                <li><a href="https://www.facebook.com/viviane.negritambolo" target="_blank"
+                                        class="fa fa-facebook" aria-hidden="true"></a></li>
+                                <li><a href="https://www.instagram.com/viviane_negri/" target="_blank"
+                                        class="fa fa-instagram" aria-hidden="true"></a></li>
+                                <li><a href="https://www.youtube.com/channel/UCyTK1IpmjlgW8hABJJIFDQw" target="_blank"
+                                        class="fa fa-youtube" aria-hidden="true"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="our-team">
+                            <div class="picture">
+                                <img class="img-fluid" src="./images/Ricardo-Guedes2.jpg">
+                            </div>
+                            <div class="team-content">
+                                <h3 class="name">Pastor Ricardo Guedes</h3>
+                                <h4 class="title">Igreja Betel</h4>
+                            </div>
+                            <ul class="social">
+                                <li><a href="https://www.facebook.com/pastorricardoguedes" target="_blank"
+                                        class="fa fa-facebook" aria-hidden="true"></a></li>
+                                <li><a href="https://www.instagram.com/prricardoguedes/" target="_blank"
+                                        class="fa fa-instagram" aria-hidden="true"></a></li>
+                                <li><a href="https://www.youtube.com/channel/UC9XA2VzqUN_56XBigbPjcYQ?app=desktop"
+                                        target="_blank" class="fa fa-youtube" aria-hidden="true"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="our-team">
+                            <div class="picture">
+                                <img class="img-fluid" src="./images/Pr_Sheila-01.jpeg">
+                            </div>
+                            <div class="team-content">
+                                <h3 class="name">Pastora Sheila</h3>
+                                <h4 class="title">Igreja Betel</h4>
+                            </div>
+                            <ul class="social">
+                                <li><a href="https://www.facebook.com/pastorasheilaguedes" target="_blank"
+                                        class="fa fa-facebook" aria-hidden="true"></a></li>
+                                <li><a href="https://www.instagram.com/sheilaguedesss/" target="_blank"
+                                        class="fa fa-instagram" aria-hidden="true"></a></li>
+                                <li><a href="https://www.youtube.com/channel/UC9XA2VzqUN_56XBigbPjcYQ?app=desktop"
+                                        target="_blank" class="fa fa-youtube" aria-hidden="true"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- partial -->
+
+        </div>
+    </section>
+
+    <!-- =========================
+            TESTEMUNHO
+        ======================== -->
+        <section class=" newsletter container testim" id="testim">
+            <div>
+                <div class="text-test-1">"Testemunhos Pastorais"</div>
+            </div>
+        <div class="wrap">
+            <span id="right-arrow" class="arrow right fa fa-chevron-right"></span>
+            <span id="left-arrow" class="arrow left fa fa-chevron-left"></span>
+
+            <ul class="dots" id="testim-dots">
+                <li class="dot active"></li>
+                <li class="dot"></li>
+                <li class="dot"></li>
+                <li class="dot"></li>
+                <li class="dot"></li>
+                <li class="dot"></li>
+            </ul>
+
+            <div class="cont" id="testim-content">
+                <div class="active">
+                    <div class="img"><img src="./images/Testemunhos/Pr-Paulo-Victor.jpeg"></div>
+                    <h2>Pr. Paulo Victor<br>
+                        Igreja Adjan - Osasco - SP | 1º Primeira Edição
+
+                    </h2>
+                    <p>
+                        "Tive a honra de acompanhar o desenvolvimento do Projeto RM122. O que antes era um sonho, agora tornou-se realidade.  
+                        Não tenho dúvidas que esse projeto será uma ferramenta espiritual para transformação de vidas. 
+                        Parabéns a todos os RM's, fico orgulhoso e feliz em ver o reino de Deus sendo propagado de forma objetiva e impactante".
+                        <br>
+                    </p>
+                </div>
+                
+                <div class="active">
+                    <div class="img"><img src="./images/Testemunhos/Pastor-Jefferson-Moraes.jpeg"></div>
+                    <h2>Pr.Jefferson Moraes<br>
+                        Igreja Evangélica Amor de Cristo | 1º Primeira Edição
+
+                    </h2>
+                    <p>
+                        "Tive a honra de acompanhar o desenvolvimento do Projeto RM122. O que antes era um sonho, agora tornou-se realidade.  
+                        Não tenho dúvidas que esse projeto será uma ferramenta espiritual para transformação de vidas. 
+                        Parabéns a todos os RM's, fico orgulhoso e feliz em ver o reino de Deus sendo propagado de forma objetiva e impactante".
+                        <br>
+                    </p>
+                </div>
+
+                <div class="active">
+                    <div class="img"><img src="./images/Testemunhos/Pr-Cristina.jpeg"></div>
+                    <h2>Pr. Cristiane Silva de Alcantara<br>
+                        Comunidade Cristâ Ebenezer | 1º Primeira Edição
+
+                    </h2>
+                    <p>
+                        O projeto RM122 RADICAL para mim foi uma experiência única pois Vivi coisas maravilhosas nos três dias. Foram momentos que eu pude aprender muitas coisas e refletir também. Sempre tive medo de participar de eventos como: encontro com Deus e coisas do tipo, porém, participando do RM122 entendi que não era nada daquilo que eu pensava, pois já havia ouvido falar a respeito do encontro com Deus, tive pessoas que participaram e infelizmente não foi o que eu esperava. Mas aceitei o convite para passar pelo RM.
+                        Foi uma experiência maravilhosa, até hoje fico refletindo sobretudo que vivi. “Gostaria de convidar você” a fazer parte das pessoas que não são conformadas e sim transformadas radicalmente para a Glória Deus.                       
+                        
+                        <br>
+                    </p>
+                </div>
+                <div class="active">
+                    <div class="img"><img src="./images/Testemunhos/Pr-Ricardo-Alcantara.jpeg"></div>
+                    <h2>Pr. Ricardo Alcântara<br>
+                        Comunidade Cristâ Ebenezer | 1º Primeira Edição
+
+                    </h2>
+                    <p>
+                        O projeto RM122 radical está sendo uma mudança de mentalidade para mim. A primeira edição, achei que tinha sido bom, mais descobrir que trabalhar é muito melhor. 
+                        Minha meta é passar todos da igreja que sou pastor.
+                        
+                        <br>
+                    </p>
+                </div>
+
+                <div class="active">
+                    <div class="img"><img src="./images/Testemunhos/Pr-Antonio-Cassio.jpeg"></div>
+                    <h2>Pr. Antônio Cássio Santos<br>
+                        Igreja Apostólica Bezalel | 1º Primeira Edição
+
+                    </h2>
+                    <p>
+                        O projeto RM122 RADICAL para mim foi uma experiência única pois Vivi coisas maravilhosas nos três dias. Foram momentos que eu pude aprender muitas coisas e refletir também. Sempre tive medo de participar de eventos como: encontro com Deus e coisas do tipo, porém, participando do RM122 entendi que não era nada daquilo que eu pensava, pois já havia ouvido falar a respeito do encontro com Deus, tive pessoas que participaram e infelizmente não foi o que eu esperava. Mas aceitei o convite para passar pelo RM.
+                        Foi uma experiência maravilhosa, até hoje fico refletindo sobretudo que vivi. “Gostaria de convidar você” a fazer parte das pessoas que não são conformadas e sim transformadas radicalmente para a Glória Deus.                       
+                        
+                        <br>
+                    </p>
+                </div>
+
+                <div class="active">
+                    <div class="img"><img src="./images/Testemunhos/Pr-Guilherme-Oliveira.jpeg"></div>
+                    <h2>Pr. Guilherme Oliveira<br>
+                        Igreja Evangélica Justiça Divina | 2º Segunda Edição
+
+                    </h2>
+                    <p>
+                        Para mim foi um prazer conhecer esse grande projeto que é o Rm122 radical, 
+                        foi impactante ver o agir de Deus. Verdadeiramente minha família foi transformada e liberta de traumas que eu nem sabia que existia, 
+                        louvo a Deus por toda a liderança desse grande projeto e com certeza quero estar juntos para que muitas pessoas também tenham suas vidas 
+                        transformadas.
+                        
+                        <br>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Coding With Nick -->
+
+    <!-- =========================
+                 FEATURES
+        ========================== -->
+
+    <section class="features parallax" data-stellar-background-ratio="0.7" id="features">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-4 col-md-4">
+                    <div class="features-box">
+                        <div class="open-overlay"><i class="icon-globe"></i></div>
+                        <h4>VISÃO</h4>
+                        <p id="features-text">
+                            Nosso propósito é transformar realidades, confrontar pessoas que vivem na inercia e precisam
+                            ser provocadas para realizar mudanças em suas vidas pessoais, profissionais, sentimentais,
+                            financeiras. Transformando uma vida por vez, alcançaremos famílias, igrejas, ruas, bairros e
+                            cidades.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <div class="features-box">
+                        <div class="open-overlay"><i class="icon-lightbulb"></i></div>
+                        <h4>Missão</h4>
+                        <p id="features-text">
+                            O RM 122 foi fundado a partir do pensamento de inconformidade com as situações que muitas
+                            pessoas, igrejas, pastores e cidades vivem. Nossa missão é construir alianças para juntos
+                            fazermos história, através da propagação do Evangelho transformador que é a palavra de Deus.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <div class="features-box">
+                        <div class="open-overlay"><i class="icon-heart"></i></div>
+                        <h4>Valores</h4>
+                        <p id="features-text">
+                            Nosso intuito é que todos provem da boa, perfeita e agradável vontade de Deus. Para isso
+                            estamos firmados nos princípios bíblicos sendo Jesus nosso maior exemplo. Diante disso
+                            nossos valores são:
+                            Amor ao próximo. Compromisso com o Reino de Deus. Respeito. Responsabilidade e Compromisso
+                            com o crescimento de nossa missão.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =========================
+                 FOOTER
+        ========================== -->
+
+    <footer class="footer">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="social list-inline">
+                        <li class="social-btn" id="fb"><a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li class="social-btn" id="tlg"><a href="https://www.instagram.com/rm122radical/"
+                                target="_blank"><i class="fa fa-instagram"></i></a></li>
+                        <li class="social-btn" id="tbl"><a
+                                href="https://www.youtube.com/channel/UCYVEBi9vX8PIkPhzVt-IWwg"><i
+                                    class="fa fa-youtube"></i></a></li>
+                        <!-- 
+                            <li class="social-btn" id="pin"><a href="#"><i class="fa  fa-pinterest"></i></a></li>
+                            <li class="social-btn" id="flk"><a href="#"><i class="fa  fa-flickr"></i></a></li>
+                           -->
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <p class="copyright">2022© <a href="www.rm122radical.com.br">RM 122 Radical</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Menu Script -->
+    <script type="">
+        var prevScrollpos = window.pageYOffset;
+ window.onscroll = function() {
+ var currentScrollPos = window.pageYOffset;
+   if (prevScrollpos > currentScrollPos) {
+     document.getElementById("navbar").style.top = "0";
+   } else {
+     document.getElementById("navbar").style.top = "-50px";
+   }
+   prevScrollpos = currentScrollPos;
+ }
+    </script>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+
+    <!-- Scroll Back To Top Button -->
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+
+
+    <!-- JAVASCRIPTS -->
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js'></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.lwtCountdown-1.0.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/jquery.nicescroll.min.js"></script>
+    <script src="js/animated.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>
